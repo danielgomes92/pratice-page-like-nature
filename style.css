@@ -5,6 +5,7 @@
     padding: 0;
      box-sizing: border-box;
     font-family: "poppins", sans-serif;
+    user-select: none;
 }
 
 section{
@@ -79,9 +80,9 @@ header .navigation a:hover{
 }
 
 .content .info p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .content .info-btn{
@@ -135,7 +136,7 @@ label{
 
 /* ESTILO RESPONSIVO*/
 
-@media (max-width:900px){
+@media (max-width:950px){
     header .navigation{
         display: none;
     }
@@ -208,7 +209,7 @@ label{
     }
 
     .content .info p{
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
