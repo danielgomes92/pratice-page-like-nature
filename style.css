@@ -6,3 +6,16 @@
      box-sizing: border-box;
     font-family: "poppins", sans-serif;
 }
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(./orange\ mountain.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
