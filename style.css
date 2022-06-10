@@ -100,3 +100,36 @@ header .navigation a:hover{
 .content .info-btn:hover{
     background: #7C220E;
 }
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 28px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 50px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.6);
+}
+
+label{
+    display: none;
+}
+
+#check{
+    z-index: 3;
+    display: none; /*caixinha checkbox no superior esquerdo foi ocultada*/
+}
+
